@@ -1,0 +1,81 @@
+body{
+    color: white;
+    font-family: 'breakbold';
+}
+.container-fluid{
+    position: relative;
+    animation: centrar 8s;
+    margin-top: 6vh;
+}
+
+.jumbotron{
+    background-color: transparent;
+}
+#FSSD{
+    font-family: 'breakbold';
+    font-size: 4vw;
+    transition: transform 1s;
+}
+
+#circ1, #circ2, #circ3{
+    margin-right: 2%;
+    transition: 1s;
+}
+#circ1{
+    background-color: white;
+}
+
+.tablas{
+    padding-left: 4vw;
+    padding-right: 4vw;
+    list-style:none;
+}
+
+.col-xs-4{
+    transition: transform 1s;
+    text-align: center;
+    font-size: 2vw;
+    background-color: transparent;
+    border: solid white 0.08vw;
+    width: 31%;
+    border-radius: 20px;
+    margin: 1%;
+    font-family:'loveloblack';
+    animation: color-change-3x 5s
+ ease-in-out infinite alternate;
+}
+
+
+.moon{
+    position:absolute;
+    top:16vw;
+    right:40.7%;
+    width:20vw;
+    height:20vw;
+    border-radius:50%;
+    background-color: #CCC;
+    box-shadow:0px 0px 600px #FFFF8C;
+    z-index:-1;
+    animation: moonAnimation 3s infinite,mover 60s infinite;
+     opacity: 0.4;
+}
+/*--------------ANIMACIONES----------*/
+#FSSD:hover{
+    transform: translateY(-2.5vh);
+}
+
+#circ1:hover, #circ2:hover, #circ3:hover{
+    transform: translateY(-0.7vw);
+}
+@keyframes color-change-3x {
+    0% {
+      background: transparent;
+    }
+    100% {
+      background: #020021 ;
+    }
+  }
+
+.col-xs-4:hover{
+    transform: scale(1.05,1.05);
+}

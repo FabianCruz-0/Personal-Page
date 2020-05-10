@@ -1,0 +1,174 @@
+body{
+    overflow-x: hidden;
+    animation: fadeIn 8s;
+    background: rgb(4,0,19);
+    background: radial-gradient(circle, rgba(4,0,19,1) 80%, rgba(0,0,0,1) 100%);
+}
+
+nav{
+    min-height: 9vh;
+    font-size: 1.5vw;
+    font-family: 'loveloblack';
+}
+.nombre{
+    font-size: 2vw;
+}
+
+#eclipse{
+    position: absolute;
+    top: 2vw;
+    right: 23%;
+    width:19vw;
+    height: 19vw;
+    border-radius: 50%;
+    background-color: #091223;
+    z-index: -1;
+    opacity: 1;
+    animation:eclipse 10s forwards;
+}
+
+
+/*--------------ANIMACIONES--------------*/
+@keyframes fadeIn {
+    from{
+            opacity: 0;
+        }
+    
+    to{
+            opacity: 1;
+        }
+}
+
+@keyframes centrar{
+    0% {top:50px;}
+    100% {top:0px;}
+}
+
+@keyframes moonAnimation{ 
+    0% { 
+        box-shadow: 0px 0px 100px #FFF,0px 0px 400px #FFF,0px 0px 400px #FFF;
+        
+    } 
+    50% { box-shadow: 0px 0px 500px #FFF,0px 0px 600px #FFF,0px 0px 600px #FFF;
+               
+} 
+    100% { box-shadow: 0px 0px 100px #FFF,0px 0px 400px #FFF,0px 0px 400px #FFF;
+                
+} }
+@keyframes mover{ 
+    0% { 
+        transform: translateY(0px);
+    } 
+    50% { 
+                transform: translateY(60vh);
+} 
+    90% {
+                transform: translateY(0px);
+}
+    100% {
+                transform: translateY(0px);
+} }
+#eclipse{
+position: absolute;
+top: 2vw;
+right: 23%;
+width:19vw;
+height: 19vw;
+border-radius: 50%;
+background-color: #091223;
+z-index: -1;
+opacity: 1;
+animation:eclipse 10s forwards;
+}
+@keyframes eclipse{
+
+0%{transform: translateX(0px);}
+50%{transform: translateX(-96%)}
+70%{background-color: transparent;}
+100%{background-color: transparent;
+transform: translateX(-96%)}
+}
+@keyframes eclipse2{
+0%{background-color: #CCC;}
+100%{background-color:#091223;}
+}
+
+
+/*--------------MEDIA RESPOSIVOS---------*/
+@media (min-width:576px){
+    #icono
+    {
+        margin-right:40%;
+    }
+    .navbar-brand
+    {
+        margin-left:-20vw;
+        margin-right: 86%;
+    }
+    .navbar-nav
+    {
+        margin-left: -240% ;
+    }  
+}
+@media (max-width:575px){
+    nav, .nombre{
+    font-size: 5vw;
+    }
+    .navbar-toggler{
+        background-color: lavender ;
+        }
+}
+/*--------------FUENTES------------------*/
+@font-face {
+    font-family: 'loveloblack';
+    src: url('/style/fonts/lovelo-black-webfont.woff2') format('woff2'),
+url('/style/fonts/lovelo-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'trench100';
+    src: url('/style/fonts/trench100free-webfont.woff2') format('woff2'),
+         url('/style/fonts/trench100free-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'valkyriebold';
+    src: url('/style/fonts/valkyrie-bold-webfont.woff2') format('woff2'),
+         url('/style/fonts/valkyrie-bold-webfont.woff') format('woff');
+    font-style:normal;
+}
+@font-face {
+    font-family: 'breakbold';
+    src: url('/style/fonts/break_bold-webfont.woff2') format('woff2'),
+         url('/style/fonts/break_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'cinzel_decorativebold';
+    src: url('/style/fonts/cinzeldecorative-bold-webfont.woff2') format('woff2'),
+         url('/style/fonts/cinzeldecorative-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cinzel_decorativeregular';
+    src: url('/style/fonts/cinzeldecorative-regular-webfont.woff2') format('woff2'),
+         url('/style/fonts/cinzeldecorative-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'geosanslightregular';
+    src: url('/style/fonts/geosanslight-webfont.woff2') format('woff2'),
+         url('/style/fonts/ geosanslight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
