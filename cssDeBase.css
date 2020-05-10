@@ -1,0 +1,202 @@
+@charset "utf-8";
+body{
+    animation: fadeIn 8s;
+    background: rgb(4,0,19);
+background: radial-gradient(circle, rgba(4,0,19,1) 80%, rgba(0,0,0,1) 100%);
+    font-family:'breakbold';
+}
+.navbar-nav{
+    max-width: 30vw;
+}
+#nombre{
+    margin-left:25vw;
+    font-size: 1.5vw;
+    margin-right: 26vw;
+    min-width: 20vw;
+
+}
+[name="home"]{
+    color: black;
+}
+[name="animacion"]{
+    transition: transform 1s;
+}
+[name="animacion"]:hover{
+    transform: translateY(-0.7vw);
+
+}
+[name="animacion2"]{
+    /* QUITADO PARA OPTIMIZACIÓN
+    animation-name: salto;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    */
+    transition: transform 1s;
+    position: relative;
+    
+}
+[name ="animacion2"]:hover{
+    transform: translateY(-20%);
+}
+@keyframes salto{
+    0%{transform: translateY(0vw) }
+    50%{transform: translateY(-1.1vw);}
+    100%{transform: translateY(0vw)}
+}
+.navbar-brand img{
+    margin-top: -1vw;
+    width: 3vw;
+}
+@media (max-width:575px){
+    #nombre
+    {
+        margin-left:auto;
+        font-size: 6vw;
+
+    }
+    .navbar a{
+        font-size: 3vw;
+        background-color: white;
+    }
+    .navbar-brand img{
+        width: 4vw;
+        margin-right: 24vw;
+    }
+    .navbar{
+        height: 15vw;
+    }
+    [name="links"]{
+    width: 185%;
+    margin-left: -80%;
+    text-align:center;
+}
+}
+@media (min-width: 576px){
+    .navbar{
+        height: 6vw;
+    }
+}
+.navbar{
+    background-color:white;
+    font-size: 1.2vw;
+    font-family: 'loveloblack';
+}
+@font-face {
+    font-family: 'loveloblack';
+    src: url('fonts/lovelo-black-webfont.woff2') format('woff2'),
+url('fonts/lovelo-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'trench100';
+    src: url('fonts/trench100free-webfont.woff2') format('woff2'),
+         url('fonts/trench100free-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'valkyriebold';
+    src: url('fonts/valkyrie-bold-webfont.woff2') format('woff2'),
+         url('fonts/valkyrie-bold-webfont.woff') format('woff');
+    font-style:normal;
+}
+@font-face {
+    font-family: 'breakbold';
+    src: url('fonts/break_bold-webfont.woff2') format('woff2'),
+         url('fonts/break_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'cinzel_decorativebold';
+    src: url('fonts/cinzeldecorative-bold-webfont.woff2') format('woff2'),
+         url('fonts/cinzeldecorative-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cinzel_decorativeregular';
+    src: url('fonts/cinzeldecorative-regular-webfont.woff2') format('woff2'),
+         url('fonts/cinzeldecorative-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'geosanslightregular';
+    src: url('fonts/geosanslight-webfont.woff2') format('woff2'),
+         url('fonts/ geosanslight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.centrar{
+    animation-name: centrar;
+    animation-duration: 3s;
+    position: relative;
+}
+@keyframes centrar{
+    0% {top:50px;}
+    100% {top:0px;}
+}
+@keyframes fadeIn {
+from{
+        opacity: 0;
+    }
+
+to{
+        opacity: 1;
+    }
+}
+@keyframes moonAnimation{ 
+        0% { 
+            box-shadow: 0px 0px 100px #FFF,0px 0px 400px #FFF,0px 0px 400px #FFF;
+            
+        } 
+        50% { box-shadow: 0px 0px 500px #FFF,0px 0px 600px #FFF,0px 0px 600px #FFF;
+                   
+} 
+        100% { box-shadow: 0px 0px 100px #FFF,0px 0px 400px #FFF,0px 0px 400px #FFF;
+                    
+} }
+@keyframes mover{ 
+        0% { 
+            transform: translateY(0px);
+        } 
+        50% { 
+                    transform: translateY(60vh);
+} 
+        90% {
+                    transform: translateY(0px);
+}
+        100% {
+                    transform: translateY(0px);
+} }
+#eclipse{
+    position: absolute;
+    top: 2vw;
+    right: 23%;
+    width:19vw;
+    height: 19vw;
+    border-radius: 50%;
+    background-color: #091223;
+    z-index: -1;
+    opacity: 1;
+    animation:eclipse 10s forwards;
+}
+@keyframes eclipse{
+    
+    0%{transform: translateX(0px);}
+    50%{transform: translateX(-96%)}
+    70%{background-color: transparent;}
+    100%{background-color: transparent;
+    transform: translateX(-96%)}
+}
+@keyframes eclipse2{
+    0%{background-color: #CCC;}
+    100%{background-color:#091223;}
+}
