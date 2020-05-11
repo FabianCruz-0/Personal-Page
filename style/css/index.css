@@ -59,6 +59,7 @@ body{
     animation: moonAnimation 3s infinite,mover 60s infinite;
      opacity: 0.4;
 }
+
 /*--------------ANIMACIONES----------*/
 #FSSD:hover{
     transform: translateY(-2.5vh);

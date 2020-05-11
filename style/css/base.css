@@ -12,6 +12,7 @@ nav{
 }
 .nombre{
     font-size: 2vw;
+    transition: transform 1.5s;
 }
 
 #eclipse{
@@ -25,6 +26,10 @@ nav{
     z-index: -1;
     opacity: 1;
     animation:eclipse 10s forwards;
+}
+
+.navSalto{
+    transition: transform 1.5s;
 }
 /*--------------SCROLLBAR----------------*/
 ::-webkit-scrollbar {
@@ -105,6 +110,13 @@ transform: translateX(-96%)}
 100%{background-color:#091223;}
 }
 
+.nombre:hover{
+    transform: scale(1.1,1.1);
+}
+
+.navSalto:hover{
+    transform: scale(1.1,1.1);
+}
 
 /*--------------MEDIA RESPOSIVOS---------*/
 @media (min-width:576px){
