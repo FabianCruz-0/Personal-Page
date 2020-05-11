@@ -3,6 +3,9 @@ http://fabiancruz.x10.mx/index.html
 
 ![index.](http://fabiancruz.x10.mx/static/page.png "index")
 
+**Mobile view:**
+![index mobile.](http://fabiancruz.x10.mx/static/mobile_view.jpeg "index mobile")
+
 * Almost 80% is interactive.
 * Completely responsive design.
 * External fonts.
