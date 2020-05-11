@@ -28,9 +28,6 @@ nav{
     animation:eclipse 10s forwards;
 }
 
-.navSalto{
-    transition: transform 1.5s;
-}
 /*--------------SCROLLBAR----------------*/
 ::-webkit-scrollbar {
     width: 1.5vw;
@@ -133,6 +130,10 @@ transform: translateX(-96%)}
     {
         margin-left: -240% ;
     }  
+    
+    .navSalto{
+        transition: transform 1.5s;
+}
 }
 @media (max-width:575px){
     nav, .nombre{
