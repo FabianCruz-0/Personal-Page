@@ -67,6 +67,21 @@
     font-size: 2.5vw;
     padding: 4%;
 }
+
+/*--------------SCROLLBAR----------------*/
+::-webkit-scrollbar {
+    width: 1.5vw;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #666; 
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #444; 
+  }
+
 /*--------------ANIMACIONES--------------*/
 
 @keyframes mover2{ 
