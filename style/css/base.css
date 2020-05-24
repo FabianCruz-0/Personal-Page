@@ -144,14 +144,14 @@ nav {
 
 @media (min-width:576px) {
     #icono {
-        margin-right: 40%;
+        margin-right: 35%;
     }
     .navbar-brand {
         margin-left: -20vw;
-        margin-right: 86%;
+        margin-right: 92%;
     }
     .navbar-nav {
-        margin-left: -240%;
+        margin-left: -232%;
     }
     .navSalto {
         transition: transform 1.5s;

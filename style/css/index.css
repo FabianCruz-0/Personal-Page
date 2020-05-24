@@ -60,6 +60,22 @@ body{
      opacity: 0.4;
 }
 
+.ticket{
+    font-family: loveloblack; 
+    text-align: justify; 
+    font-size: 2vw; 
+    background-color: transparent;
+    padding: 0.2vw;
+    border-radius: 5px;
+    margin-left: 15vw;
+    
+}
+.ticket-item{
+    display: inline-block;
+    animation: ticket 20s infinite;
+    animation-timing-function: linear;
+    white-space: nowrap;
+}
 /*--------------ANIMACIONES----------*/
 #FSSD:hover{
     transform: translateY(-2.5vh);
@@ -79,4 +95,18 @@ body{
 
 .col-xs-4:hover{
     transform: scale(1.05,1.05);
+}
+@keyframes ticket{
+0%{
+    transform: translate3d(0,0,0);
+}
+50%{
+    transform: translate3d(-50%,0,0);
+}
+100%{
+    transform: translate3d(0,0,0);
+}
+}
+.ticket-item:hover{
+    animation-play-state: paused;
 }
