@@ -1,0 +1,50 @@
+.container{
+    margin-top: 15vh;
+    color: white;
+    font-family: loveloblack;
+    border-top: solid 2px gray;
+    border-bottom: solid 2px gray;
+}
+#welcome{
+    transition: transform 1s;
+    font-size: 2vw;
+}
+.info{
+    margin-left: 5%;
+    font-size: 2vw;
+    text-align: justify;
+}
+
+.moon {
+    position: absolute;
+    top: 16vw;
+    right: 40.7%;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    background-image: url("../images/moon.jpg");
+    background-position: -10vw;
+    background-size: 40vw;
+    background-color: #CCC;
+    box-shadow: 0px 0px 600px #FFFF8C;
+    z-index: -1;
+    animation: moonAnimation 3s infinite, passingBy 20s infinite;
+    opacity: 0.4;
+}
+/*-----------------Animaciones-----------------*/
+#welcome:hover{
+transform: translateY(-2.5vh);
+}
+
+@keyframes passingBy {
+    0% {
+        transform: translate(-75vw, 30vh);
+    }
+    50%{
+        transform: translate(0vw, 5vh);
+    }
+    100% {
+        transform: translate(75vw,30vh);
+
+    }
+}
