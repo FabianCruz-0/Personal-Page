@@ -29,27 +29,6 @@ nav {
     animation: eclipse 10s forwards;
 }
 
-
-/*--------------SCROLLBAR----------------*/
-
-::-webkit-scrollbar {
-    width: 1.5vw;
-    min-width: 20px;
-}
-
- ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-
- ::-webkit-scrollbar-thumb {
-    background: #666;
-}
-
- ::-webkit-scrollbar-thumb:hover {
-    background: #444;
-}
-
-
 /*--------------ANIMACIONES--------------*/
 
 @keyframes fadeIn {
@@ -162,7 +141,23 @@ nav {
     body,html{
         overflow-x: hidden;
     }
+    /*--------------SCROLLBAR----------------*/
+    ::-webkit-scrollbar {
+        width: 1.5vw;
+        min-width: 20px;
+    }
     
+     ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    
+     ::-webkit-scrollbar-thumb {
+        background: #666;
+    }
+    
+     ::-webkit-scrollbar-thumb:hover {
+        background: #444;
+    }
 }
 
 @media (max-width:575px) {

@@ -72,6 +72,21 @@
 }
 
 
+/*--------------ANIMACIONES--------------*/
+
+@keyframes mover2 {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(320%);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@media (min-width:576px){
 /*--------------SCROLLBAR----------------*/
 
 ::-webkit-scrollbar {
@@ -90,18 +105,4 @@
  ::-webkit-scrollbar-thumb:hover {
     background: #444;
 }
-
-
-/*--------------ANIMACIONES--------------*/
-
-@keyframes mover2 {
-    0% {
-        transform: translateY(0px);
-    }
-    50% {
-        transform: translateY(320%);
-    }
-    100% {
-        transform: translateY(0px);
-    }
 }
