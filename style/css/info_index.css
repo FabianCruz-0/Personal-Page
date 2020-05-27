@@ -4,6 +4,7 @@
     font-family: loveloblack;
     border-top: solid 2px gray;
     border-bottom: solid 2px gray;
+    animation: centrar 8s;
 }
 #welcome{
     transition: transform 1s;
