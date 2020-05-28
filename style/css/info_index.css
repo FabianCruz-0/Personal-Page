@@ -5,10 +5,14 @@ body{
     margin-top: 15vh;
     color: white;
     font-family: loveloblack;
-    border-top: solid 2px gray;
-    border-bottom: solid 2px gray;
+    
     animation: centrar 8s forwards;
     position: relative;
+}
+.presentacion{
+    border-top: solid 2px gray;
+    border-bottom: solid 2px gray;
+    padding-bottom: 5vh;
 }
 #welcome{
     transition: transform 1s;
