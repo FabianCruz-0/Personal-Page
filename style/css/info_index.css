@@ -39,6 +39,8 @@ body{
 /*-----------------Animaciones-----------------*/
 #welcome:hover{
 transform: translateY(-2.5vh);
+transform: scale(1.2,1.2);
+text-decoration: underline;
 }
 
 @keyframes passingBy {
@@ -61,3 +63,23 @@ transform: translateY(-2.5vh);
         top: 0px;
     }
 }
+@media (min-width:576px){
+    /*--------------SCROLLBAR----------------*/
+    
+    ::-webkit-scrollbar {
+        width: 1.5vw;
+        min-width: 20px;
+    }
+    
+     ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    
+     ::-webkit-scrollbar-thumb {
+        background: #666;
+    }
+    
+     ::-webkit-scrollbar-thumb:hover {
+        background: #444;
+    }
+    }
