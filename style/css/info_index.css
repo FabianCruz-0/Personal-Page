@@ -1,10 +1,14 @@
+body{
+    min-height: 100vh;
+}
 .container{
     margin-top: 15vh;
     color: white;
     font-family: loveloblack;
     border-top: solid 2px gray;
     border-bottom: solid 2px gray;
-    animation: centrar 8s;
+    animation: centrar 8s forwards;
+    position: relative;
 }
 #welcome{
     transition: transform 1s;
@@ -47,5 +51,13 @@ transform: translateY(-2.5vh);
     100% {
         transform: translate(75vw,30vh);
 
+    }
+}
+@keyframes centrar {
+    0% {
+        top: 50px;
+    }
+    100% {
+        top: 0px;
     }
 }
