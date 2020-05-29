@@ -55,12 +55,20 @@ body{
   }
   
   .collapsible:hover {
-    background-color: #CCC;
+    background-color: rgb(101, 117, 146) ;
   }
-  
+  .back{
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url('../images/back.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .back2{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('../images/back2.jpg');
+    background-size: cover;
+    background-position: center;
+  }
   .content {
-    background-image: url('../images/ola.jpg');
-    padding: 0 18px;
+    text-align: justify;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
