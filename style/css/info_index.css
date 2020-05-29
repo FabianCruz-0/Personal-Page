@@ -1,5 +1,5 @@
 body{
-    min-height: 100vh;
+    min-height: 200vh;
 }
 .container{
     margin-top: 15vh;
@@ -40,6 +40,45 @@ body{
     animation: moonAnimation 3s infinite, passingBy 20s infinite;
     opacity: 0.4;
 }
+
+/*--------------Colpasables---------------------*/
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background:transparent;
+    border: solid 2px white;
+  }
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  .active:after {
+    content: "\2212";
+  }
+
+
 /*-----------------Animaciones-----------------*/
 #welcome:hover{
 transform: translateY(-2.5vh);
