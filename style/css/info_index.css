@@ -67,6 +67,11 @@ body{
     background-size: cover;
     background-position: center;
   }
+  .back3{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('../images/back3.jpg');
+    background-size: cover;
+    background-position: center;
+  }
   .content {
     text-align: justify;
     max-height: 0;
