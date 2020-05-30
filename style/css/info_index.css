@@ -58,17 +58,17 @@ body{
     background-color: rgb(101, 117, 146) ;
   }
   .back{
-    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url('../images/back.jpg');
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url('../images/backs/back.jpg');
     background-size: cover;
     background-position: center;
   }
   .back2{
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('../images/back2.jpg');
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('../images/backs/back2.jpg');
     background-size: cover;
     background-position: center;
   }
   .back3{
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('../images/back3.jpg');
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('../images/backs/back3.jpg');
     background-size: cover;
     background-position: center;
   }
