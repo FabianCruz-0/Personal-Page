@@ -44,7 +44,9 @@ body{
 /*--------------Colpasables---------------------*/
 
 .collapsible {
-    background-position: center;
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/colaps.jpg');
+    background-position: top;
+    background-size: cover;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -52,6 +54,7 @@ body{
     text-align: left;
     outline: none;
     font-size: 1.5vw;
+    color: white;
   }
   
   .collapsible:hover {
