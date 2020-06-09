@@ -72,16 +72,13 @@ body{
     border: solid 2px white;
     color: white;
     font-size: 2vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .collapsible:after {
-    content: '\002B';
     font-weight: bold;
     float: right;
     margin-left: 5px;
     color: black;
-  }
-  .active:after {
-    content: "\2212";
   }
 
 
@@ -135,9 +132,10 @@ text-decoration: underline;
 
     /*---------Backgrounds-----------*/
     .back{
-        background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url('../images/backs/back.jpg');
+        background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9)), url('../images/backs/back.jpg');
         background-size: cover;
         background-position: center;
+        padding: 5vw;
       }
       .back2{
         background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../images/backs/back2.jpg');

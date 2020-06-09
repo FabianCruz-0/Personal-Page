@@ -227,3 +227,15 @@ nav {
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'coco-bold';
+    src: url('/style/fonts/coco-bold-webfont.woff2') format('woff2'), url('/style/fonts/coco-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'glyphicons';
+    src: url('/style/fonts/glyphicons-halflings-regular.woff') format('woff2'), url('/style/fonts/glyphicons-halflings-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
