@@ -89,6 +89,14 @@ body{
     animation-timing-function: linear;
     white-space: nowrap;
 }
+.cursos{
+    float: left;
+    max-width: 50%;
+    text-align: center;
+}
+.cursos img{
+    width: 90%;
+}
 /*--------------ANIMACIONES----------*/
 .fssd-info:hover{
     transform: translateY(-2.5vh);
