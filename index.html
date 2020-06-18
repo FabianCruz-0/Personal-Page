@@ -86,22 +86,22 @@
 
                             My certificates:<br>
                         </p>
-                        <div class="cursos">
+                        <div class="cursos" onclick="image(1)">
                             HTML <br>
-                            <img src="../style/images/info/4.jpg" alt="image">
+                            <img id="img1" src="../style/images/info/4.jpg" alt="image">
                         </div>
-                        <div class="cursos">
+                        <div class="cursos" onclick="image(2)">
                             PHP <br>
-                            <img src="../style/images/info/5.jpg" alt="image">
+                            <img id="img2" src="../style/images/info/5.jpg" alt="image">
                         </div>
                         <br><br>
-                        <div class="cursos">
+                        <div class="cursos" onclick="image(3)">
                             PHP <br>
-                            <img src="../style/images/info/4.jpg" alt="image">
+                            <img id="img3" src="../style/images/info/4.jpg" alt="image">
                         </div>
-                        <div class="cursos">
+                        <div class="cursos" onclick="image(4)">
                             PHP <br>
-                            <img src="../style/images/info/5.jpg" alt="image">
+                            <img id="img4" src="../style/images/info/5.jpg" alt="image">
                         </div>
                         &nbsp;
                     </div>
@@ -187,7 +187,21 @@
             </div>
         </div>
     </div>
+<script>
+    function image(i)
+    {
+        number =""+i;
+        var x = document.getElementById("img"+number);
+        console.log("clicked the image number "+i);
+        if(x.style.transform == "scale(1, 1)"){
+            x.style.transform = "scale(1.5, 1.5)";
+        } else {
+            x.style.transform = "scale(1, 1)";
+        }
+        console.log(x.style.transform);
 
+    }
+</script>
 
 
     <!--Jquery calls-->
