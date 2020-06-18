@@ -1,3 +1,7 @@
+body{
+    overflow: hidden;
+}
+
 .moon {
     position: absolute;
     top: 1vw;

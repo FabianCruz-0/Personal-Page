@@ -1,5 +1,6 @@
 body{
     min-height: 200vh;
+    overflow: hidden;
 }
 .container{
     margin-top: 5vh;
