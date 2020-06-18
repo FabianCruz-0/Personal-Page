@@ -15,15 +15,8 @@ body{
     border-bottom: solid 2px gray;
     padding-bottom: 5vh;
 }
-#welcome{
-    transition: transform 1s;
-    font-size: 2vw;
-}
-.info{
-    margin-left: 5%;
-    font-size: 2vw;
-    text-align: justify;
-}
+
+
 
 .moon {
     position: absolute;
@@ -84,11 +77,7 @@ body{
 
 
 /*-----------------Animaciones-----------------*/
-#welcome:hover{
-transform: translateY(-2.5vh);
-transform: scale(1.2,1.2);
-text-decoration: underline;
-}
+
 
 @keyframes passingBy {
     0% {
@@ -138,12 +127,7 @@ text-decoration: underline;
         background-position: center;
         padding: 5vw;
       }
-      .back2{
-        background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url('../images/backs/back2.jpg');
-        background-size: cover;
-        background-position: center;
-        padding: 5vw;
-      }
+      
       .back3{
         background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('../images/backs/back3.jpg');
         background-size: cover;
