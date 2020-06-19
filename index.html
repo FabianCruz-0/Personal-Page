@@ -49,7 +49,7 @@
                     <tr>
                         <td style="width: 30vw;">
                             <center>
-                                <img src="/style/images/me.jpg" width="55%"
+                                <img src="/style/images/me.jpg" width="60%"
                                     style="min-width: 100px; border-radius: 5px;">
                             </center>
                         </td>
@@ -58,9 +58,9 @@
                                 FULL STACK SOFTWARE ENGINEER.
                             </p>
                             <p class="info">
-                                Im coursing a <u>"Software Technology Engineering"</u> degree in Nuevo León,
-                                México.<br><br><br>
-                                I have +10 programming certificates and more than 12 projects on my github.
+                                Im coursing a <u>"Software Technology Engineering"</u> degree in Facultad De Ingeniería
+                                Mecánica y Eléctrica (UANL) at Nuevo León, México.<br><br><br>
+                                I have <u>7 programming certificates</u> and <u>more than 12 projects on my github</u>.
                             </p>
                         </td>
                     </tr>
@@ -68,12 +68,10 @@
                 <br>
                 <button class="collapsible">My certificates and constancies:</button>
                 <div class="content">
-                    <div class="back2">
+                    <div class="back3">
                         <p>
                             I have participed in some extra courses where I learn more stuff about programming. I have
-                            done some
-                            presential
-                            courses and digital courses. However, nowadays I keep doing digital courses because are more
+                            done some presential and digital courses. However, nowadays I keep doing digital courses because are more
                             flexible in terms of time.<br>
                         </p>
                         <center>
@@ -86,23 +84,33 @@
 
                             My certificates:<br>
                         </p>
-                        <div class="cursos" onclick="image(1)">
+                        <div class="cursos">
+                            Web Development <br>
+                            <img src="/style/images/Web.jpeg" width= "88%" alt="image">
+                        </div>
+                        <div class="cursos">
+                            Android Programming<br>
+                            <img src="/style/images/Android.jpeg" width= "90%" alt="image">
+                        </div>
+                        <div class="cursos">
+                            Linux <br>
+                            <img src="/style/images/Linux.jpeg" width= "86%"alt="image">
+                        </div>
+                        <div class="cursos">
                             HTML <br>
-                            <img id="img1" src="../style/images/info/4.jpg" alt="image">
+                            <img src="/style/images/cert/html.jpg" width= "90%"alt="image">
                         </div>
-                        <div class="cursos" onclick="image(2)">
+                        <div class="cursos">
                             PHP <br>
-                            <img id="img2" src="../style/images/info/5.jpg" alt="image">
+                            <img src="/style/images/cert/php.jpg"width= "90%" alt="image">
                         </div>
-                        <br><br>
-                        <div class="cursos" onclick="image(3)">
-                            PHP <br>
-                            <img id="img3" src="../style/images/info/4.jpg" alt="image">
-                        </div>
-                        <div class="cursos" onclick="image(4)">
-                            PHP <br>
-                            <img id="img4" src="../style/images/info/5.jpg" alt="image">
-                        </div>
+                        <div class="cursos">
+                            Java <br>
+                            <img src="/style/images/cert/java.jpg" width= "90%"alt="image">
+                        </div><center><div class="cursos-ult">
+                            C++ <br>
+                            <img src="/style/images/cert/cplus.jpg"width= "90%" alt="image">
+                        </div></center>
                         &nbsp;
                     </div>
                 </div>
@@ -118,14 +126,14 @@
             </center>
             <hr>
             <center>
-                <h3 style="font-size: 3vw;">CORE TECHNOLOGIES:</h3>
+                <h3 style="font-size: 3vw;">PRINCIPAL TECHNOLOGIES:</h3>
             </center>
             <br>
             <table class="table-responsive-sm">
                 <div class="row">
                     <div class="col-xs-4">
                         <center>
-                            <strong>Front-End</strong>
+                            <u>Front-End</u>
                         </center>
                         <br>
                         <ul class="tablas">
@@ -134,6 +142,7 @@
                             <li>JavaScript.</li>
                             <hr>
                             <li>Bootstrap.</li>
+                            <li>Tailwind.</li>
                             <li>VUE.JS.</li>
                             <li>ANGULAR.</li>
 
@@ -141,13 +150,14 @@
                     </div>
                     <div class="col-xs-4">
                         <center>
-                            <strong>Back-End</strong>
+                            <u>Back-End</u>
                         </center>
                         <br>
                         <ul class="tablas">
                             <li>SQL.</li>
-                            <li>C#.</li>
+                            <li>PHP.</li>
                             <li>JavaScript.</li>
+                            <li>C#.</li>
                             <hr>
                             <li>MySQL.</li>
                             <li>SQLServer.</li>
@@ -159,14 +169,14 @@
                     </div>
                     <div class="col-xs-4">
                         <center>
-                            <strong>OTHER:</strong>
+                            <u>OTHER:</u>
                         </center>
                         <br>
                         <ul class="tablas">
-                            <li>MVC (.Net Core)</li>
-                            <li>MVVM (.Net Core)</li>
+                            <li>MVC Pattern.</li>
+                            <li>MVVM Pattern.</li>
                             <li>FTP protocol.</li>
-                            <li>Git Bash / Github.</li>
+                            <li>Git / Github.</li>
                             <li>JAVA.</li>
                             <li>C++.</li>
                             <li>Unity.</li>
@@ -187,6 +197,7 @@
             </div>
         </div>
     </div>
+    <!--
 <script>
     function image(i)
     {
@@ -195,13 +206,16 @@
         console.log("clicked the image number "+i);
         if(x.style.transform == "scale(1, 1)"){
             x.style.transform = "scale(1.5, 1.5)";
+            x.style.zIndex = "5";
         } else {
             x.style.transform = "scale(1, 1)";
+            x.style.zIndex = "0";
         }
         console.log(x.style.transform);
 
     }
 </script>
+-->
 
 
     <!--Jquery calls-->
