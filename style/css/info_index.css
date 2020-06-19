@@ -1,5 +1,5 @@
 body{
-    min-height: 200vh;
+    min-height: 90vh;
     overflow: hidden;
 }
 .container{
@@ -11,9 +11,10 @@ body{
     position: relative;
 }
 .presentacion{
-    border-top: solid 2px gray;
-    border-bottom: solid 2px gray;
-    padding-bottom: 5vh;
+    font-size: 2vw;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 
@@ -127,13 +128,13 @@ body{
         background-position: center;
         padding: 5vw;
       }
-      
-      .back3{
-        background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('../images/backs/back3.jpg');
+      .back2{
+        background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url('/style/images/backs/back2.jpg');
         background-size: cover;
         background-position: center;
         padding: 5vw;
       }
+      
       .back4{
         background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('../images/backs/back4.jpg');
         background-size: cover;
@@ -141,7 +142,7 @@ body{
         padding: 5vw;
       }
       .back5{
-        background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('../images/backs/back5.jpg');
+        background: linear-gradient(rgba(0,0,0,.85), rgba(0,0,0,.85)), url('../images/backs/back5.jpg');
         background-size: cover;
         background-position: center;
         padding: 5vw;
