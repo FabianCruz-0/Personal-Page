@@ -155,7 +155,7 @@ body{
     box-shadow: 0px 0px 5px 1px #380038;
     transition: transform 3s;
     font-family: 'loveloblack';
-    animation: push 5s infinite;
+    animation: push 5s infinite ease-in ;
   }
   .content {
     text-align: justify;
