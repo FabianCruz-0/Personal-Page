@@ -70,10 +70,7 @@ nav {
         transform: translateY(0px);
     }
     50% {
-        transform: translateY(60vh);
-    }
-    90% {
-        transform: translateY(0px);
+        transform: translateY(130vh);
     }
     100% {
         transform: translateY(0px);
