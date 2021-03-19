@@ -52,6 +52,7 @@ body{
     color: white;
     box-shadow: 0px 0px 5px 1px #380038;
     transition: transform 3s;
+    margin-top: 1vw;
   }
   
   .collapsible:hover {
@@ -85,7 +86,7 @@ body{
         transform: translate(-75vw, 30vh);
     }
     50%{
-        transform: translate(0vw, 5vh);
+        transform: translate(0vw, -10vh);
     }
     100% {
         transform: translate(75vw,30vh);
