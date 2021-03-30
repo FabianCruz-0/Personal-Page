@@ -124,7 +124,8 @@ nav {
 
 @media (min-width:576px) {
     #icono {
-        margin-right: 35%;
+        width: 4vw;
+        margin-right: 40%;
     }
     .navbar-brand {
         margin-left: -20vw;
@@ -141,6 +142,12 @@ nav {
     }
     body,html{
         overflow-x: hidden;
+    }
+    .fssd-info{
+        margin-bottom: 7vw;
+    }
+    #welcome{
+        margin-top: 5vw;
     }
     /*--------------SCROLLBAR----------------*/
     ::-webkit-scrollbar {
@@ -171,6 +178,9 @@ nav {
     }
     body,html{
         overflow-x: hidden;
+    }
+    #icono{
+        width: 50px;
     }
 }
 

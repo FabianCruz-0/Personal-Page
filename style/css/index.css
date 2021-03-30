@@ -1,12 +1,16 @@
 body{
     color: white;
-    font-family: 'breakbold';
+    font-family: 'loveloblack';
     overflow: hidden;
 }
 #welcome{
     transition: transform 3s;
-    font-size: 2.4vw;
+    font-size: 4vw;
     font-family: 'loveloblack';
+}
+.career{
+    font-size: 2vw;
+    font-family: 'Open Sans', sans-serif;
 }
 .info{
     margin-left: 5%;
@@ -14,11 +18,11 @@ body{
     font-family: 'Verdana';
 }
 .fssd-info{
-    font-size: 2.5vw;
+    font-size: 2vw;
     text-align: justify;
     text-align: center;
     transition: transform 1s;
-    font-family: 'loveloblack';
+    font-family: 'Open Sans', sans-serif;
 }
 .container-fluid{
     position: relative;
@@ -132,10 +136,7 @@ body{
 .ticket-item:hover{
     animation-play-state: paused;
 }
-#welcome:hover{
-    transform: scale(1.1,1.1);
-    text-decoration: underline;
-    }
+
 /*--------------Colpasables---------------------*/
 
 .collapsible {

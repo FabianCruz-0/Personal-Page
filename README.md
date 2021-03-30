@@ -6,7 +6,6 @@ http://fabiancruz.x10.mx/index.html
 **Mobile view:**
 ![index mobile.](http://fabiancruz.x10.mx/static/mobile_view.jpeg "index mobile")
 
-* Almost 80% is interactive.
 * Completely responsive design.
 * External fonts.
 * A lot of  CSS animations (the background is also an infinite CSS animation).
@@ -14,7 +13,7 @@ http://fabiancruz.x10.mx/index.html
 * Bootstrap.
 <hr>
 
-## *The <ins>BIG IDEA</ins> behind my Navigation bar (Nav-bar) Implementation.*
+## *The IDEA behind my Navigation bar (Nav-bar) Implementation.*
 
 You can see in my page that the navbar it keeps always responsive and the items stay where they should. 
 
@@ -40,9 +39,3 @@ The unordened list  have a margin negative percent to the left.
 Given a positive margin towards the x axis, a negative margin along the same axis, but <ins>**WITH A HIGHER PERCENTAGE**</ins> , it allows a new calculation of the occupied percentage of the screen with respect to the attribute *`viewport Width`* while the screen is getting smaller in width.
 
 <hr>
-
-## What the newest version of my personal page includes:
-* 15% of editing visual stuff, it keeps the design, but made it cleaner.
-* 25% of improving the performance while you're wathcing it, because of the way that animations were made.
-* 60% of improivng the project's structure. it have **<ins>AN INCREDIBLE</ins>** reduction of files and better organization.
-![reduccion de documentos.](http://fabiancruz.x10.mx/static/changes.jpeg "reduccion de documentos")
