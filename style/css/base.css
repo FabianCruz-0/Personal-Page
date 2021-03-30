@@ -182,6 +182,9 @@ nav {
     #icono{
         width: 50px;
     }
+    #welcome{
+        margin-top: 2vw;
+    }
 }
 
 
