@@ -14,6 +14,10 @@ nav {
     background-position: bottom;
     filter: brightness(1.1);
 }
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(0, 0, 0.7);
+    font-size: 1.2vw;
+}
 
 .nombre {
     font-size: 2vw;
@@ -129,7 +133,7 @@ nav {
     }
     .navbar-brand {
         margin-left: -20vw;
-        margin-right: 92%;
+        margin-right: 87%;
     }
     .navbar-nav {
         margin-left: -232%;
@@ -148,6 +152,11 @@ nav {
     }
     #welcome{
         margin-top: 5vw;
+    }
+    @media (min-width: 575px) and (max-width:630px){
+        .navbar-brand {
+            margin-right: 95%;
+        }
     }
     /*--------------SCROLLBAR----------------*/
     ::-webkit-scrollbar {
