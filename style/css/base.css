@@ -194,6 +194,10 @@ nav {
     #welcome{
         margin-top: 9vw;
     }
+    .navbar-light .navbar-nav .nav-link{
+        color: rgb(0, 0, 0.7);
+        font-size: 4vw;
+    }
 }
 
 
